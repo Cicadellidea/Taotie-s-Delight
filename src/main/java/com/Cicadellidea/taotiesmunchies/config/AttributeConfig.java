@@ -20,7 +20,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class AttributeConfig {
     public static List<HashMap<String,Object>> attributeMapList;
-    public static File file = new File("config/attribute_config.json");
+    public static File file = new File("config/taotie_attribute_config.json");
 
 
 
