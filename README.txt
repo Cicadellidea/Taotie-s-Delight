@@ -1,3 +1,8 @@
+现在支持自定义属性和状态效果了，对应配置文件taotie_attribute_config.json
+
+Now you can customize attributes or effects through taotie_attribute_config.json
+
+---------------------------------------------------------------------------------------
 A mod designed to encourage trying legendary foods.
 
 Add a food to the config file, or turn off the whitelist in the config file, so that you can get stronger after eating.(Once for each food)
@@ -37,8 +42,6 @@ Commands:
 Feel  free to use this mod.
 
 ---------------------------------------------------------------------------------------
-该模组是为作者正在制作的自制整合包所制作的。
-
 本模组允许玩家通过食物提高属性值（每个食物限一次），以此鼓励玩家尝试新食物。
 
 可能的属性值包括攻击，攻速，移速，伤害减免，生命回复，箭矢速度，箭矢伤害。
@@ -73,4 +76,3 @@ v0.2.1开始加入了2种状态效果，弹速上升和箭矢伤害上升，并�
 
 箭矢伤害：箭矢伤害上升1(+30%箭矢伤害)
 
-如果你想加其他属性……我建议直接改模组文件，这玩意要通过配置文件实现的话……折磨我也折磨你，不过也许未来会有一个版本支持吧
