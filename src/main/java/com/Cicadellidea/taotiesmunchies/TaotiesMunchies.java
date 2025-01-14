@@ -133,9 +133,7 @@ public class TaotiesMunchies
 
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, TaotiesMunchiesConfig.SPEC);
         MinecraftForge.EVENT_BUS.addGenericListener(Entity.class,this::attachCapability);
-        try{AttributeConfig.init();} catch (IOException e) {
-            LOGGER.info(String.valueOf(e));
-        }
+        
 
 
     }
