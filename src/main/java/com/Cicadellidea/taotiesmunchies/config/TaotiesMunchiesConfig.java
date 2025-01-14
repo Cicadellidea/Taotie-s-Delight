@@ -12,6 +12,7 @@ import net.minecraftforge.fml.event.config.ModConfigEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.registries.ForgeRegistries;
 
+import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -171,10 +172,16 @@ public class TaotiesMunchiesConfig {
     public static void onSetup(FMLCommonSetupEvent event)
     {
         getConfig();
+        try{AttributeConfig.init();} catch (IOException e) {
+            TaotiesMunchies.LOGGER.info(String.valueOf(e));
+        }
     }
     @SubscribeEvent
     public static void onload(ModConfigEvent.Reloading event)
     {
         getConfig();
+        try{AttributeConfig.init();} catch (IOException e) {
+            TaotiesMunchies.LOGGER.info(String.valueOf(e));
+        }
     }
 }
